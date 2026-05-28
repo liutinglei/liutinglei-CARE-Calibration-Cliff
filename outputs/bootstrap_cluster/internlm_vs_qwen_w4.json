@@ -1,0 +1,53 @@
+{
+  "system_A": "internlm2_5_7b_w4",
+  "system_A_files": [
+    "internlm2_5_7b_w4_seed41_predictions",
+    "internlm2_5_7b_w4_seed42_predictions",
+    "internlm2_5_7b_w4_seed43_predictions"
+  ],
+  "system_B": "qwen2_5_7b_w4",
+  "system_B_files": [
+    "qwen2_5_7b_w4_seed41_predictions",
+    "qwen2_5_7b_w4_seed42_predictions",
+    "qwen2_5_7b_w4_seed43_predictions"
+  ],
+  "B": 10000,
+  "seed": 42,
+  "resampling_unit": "conversation",
+  "n_clusters": 13,
+  "n_rows": 933,
+  "effective_sample_size_clusters": 13,
+  "jackknife_replications": 13,
+  "A_mean_macroF1": 0.9081505089677001,
+  "A_ci95_macroF1": [
+    0.8678221499747143,
+    0.9444912064492978
+  ],
+  "B_mean_macroF1": 0.9007566008371821,
+  "B_ci95_macroF1": [
+    0.8603977472511996,
+    0.9391747157423275
+  ],
+  "diff_macroF1_overall": 0.007723044276739088,
+  "diff_macroF1_mean": 0.007393908130517781,
+  "diff_macroF1_ci95": [
+    -0.01604388196826875,
+    0.034570661407530505
+  ],
+  "diff_macroF1_bca_ci95": [
+    -0.012579901046968473,
+    0.04079679970166643
+  ],
+  "p_value_macroF1_two_sided": 0.5798,
+  "diff_harmF1_overall": 0.00987752494069516,
+  "diff_harmF1_mean": 0.00915111283666452,
+  "diff_harmF1_ci95": [
+    -0.024012570989318447,
+    0.045634568728514305
+  ],
+  "diff_harmF1_bca_ci95": [
+    -0.01810297976251626,
+    0.057109925241618106
+  ],
+  "p_value_harmF1_two_sided": 0.5938
+}

@@ -1,0 +1,69 @@
+﻿{
+  "base_model": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+  "adapter": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed42",
+  "test_jsonl": "<DATA_ROOT>/data/synbullying_strict_w4_test.jsonl",
+  "n": 933,
+  "free_form": {
+    "strategy": "free_form",
+    "n": 933,
+    "unparsable_rows": 0,
+    "unparsable_rate": 0.0,
+    "macro_f1": 0.9181359352686775,
+    "harmful_f1": 0.8926905132192846,
+    "not_harmful_f1": 0.9435813573180704,
+    "accuracy": 0.9260450160771704,
+    "confusion_matrix": [
+      [
+        577,
+        33
+      ],
+      [
+        36,
+        287
+      ]
+    ],
+    "wallclock_s": 710.41
+  },
+  "constrained": {
+    "strategy": "constrained",
+    "n": 933,
+    "unparsable_rows": 0,
+    "unparsable_rate": 0.0,
+    "macro_f1": 0.9181359352686775,
+    "harmful_f1": 0.8926905132192846,
+    "not_harmful_f1": 0.9435813573180704,
+    "accuracy": 0.9260450160771704,
+    "confusion_matrix": [
+      [
+        577,
+        33
+      ],
+      [
+        36,
+        287
+      ]
+    ],
+    "wallclock_s": 99.65
+  },
+  "verbalizer": {
+    "strategy": "verbalizer",
+    "n": 933,
+    "unparsable_rows": 0,
+    "unparsable_rate": 0.0,
+    "macro_f1": 0.9168880948017837,
+    "harmful_f1": 0.8909657320872274,
+    "not_harmful_f1": 0.9428104575163399,
+    "accuracy": 0.92497320471597,
+    "confusion_matrix": [
+      [
+        577,
+        33
+      ],
+      [
+        37,
+        286
+      ]
+    ],
+    "wallclock_s": 97.73
+  }
+}

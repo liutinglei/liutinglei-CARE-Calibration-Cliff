@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/deberta_v3_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.6735966735966736,
+  "not_harmful_precision": 0.6405109489051095,
+  "not_harmful_recall": 0.44884910485933505,
+  "not_harmful_f1": 0.5278195488721804,
+  "harmful_precision": 0.6867732558139535,
+  "harmful_recall": 0.8274956217162872,
+  "harmful_f1": 0.7505957108816521,
+  "macro_precision": 0.6636421023595316,
+  "macro_recall": 0.6381723632878111,
+  "macro_f1": 0.6392076298769163,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      351,
+      431
+    ],
+    [
+      197,
+      945
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.64      0.45      0.53       782\n     harmful       0.69      0.83      0.75      1142\n\n    accuracy                           0.67      1924\n   macro avg       0.66      0.64      0.64      1924\nweighted avg       0.67      0.67      0.66      1924\n"
+}

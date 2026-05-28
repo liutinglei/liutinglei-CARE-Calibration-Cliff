@@ -1,0 +1,934 @@
+idx,label,pred,raw
+0,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+1,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+2,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+3,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+4,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+5,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+6,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+7,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+8,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+9,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+10,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+11,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+12,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+13,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+14,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+15,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+16,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+17,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+18,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+19,not_harmful,harmful,harmful. Cyberbullying type: None.
+20,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+21,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+22,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+23,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+24,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+25,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+26,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+27,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+28,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+29,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+30,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+31,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+32,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+33,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+34,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+35,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+36,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+37,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+38,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+39,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+40,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+41,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+42,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+43,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+44,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+45,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+46,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+47,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+48,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+49,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+50,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+51,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+52,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+53,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+54,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+55,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+56,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+57,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+58,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+59,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+60,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+61,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+62,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+63,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+64,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+65,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+66,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+67,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+68,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+69,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+70,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+71,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+72,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+73,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+74,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+75,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+76,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+77,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+78,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+79,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+80,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+81,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+82,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+83,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+84,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+85,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+86,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+87,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+88,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+89,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+90,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+91,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+92,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+93,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+94,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+95,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+96,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+97,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+98,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+99,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+100,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+101,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+102,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+103,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+104,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+105,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+106,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+107,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+108,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+109,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+110,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+111,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+112,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+113,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+114,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+115,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+116,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+117,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+118,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+119,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+120,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+121,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+122,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+123,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+124,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+125,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+126,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+127,not_harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+128,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+129,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+130,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+131,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+132,harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+133,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+134,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+135,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+136,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+137,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+138,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+139,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+140,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+141,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+142,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+143,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+144,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+145,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+146,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+147,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+148,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+149,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+150,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+151,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+152,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+153,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+154,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+155,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+156,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+157,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+158,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+159,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+160,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+161,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+162,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+163,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+164,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+165,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+166,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+167,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+168,not_harmful,not_harmful,not harmful. Cyberbullying type: Defamation.
+169,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+170,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+171,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+172,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+173,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+174,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+175,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+176,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+177,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+178,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+179,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+180,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+181,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+182,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+183,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+184,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+185,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+186,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+187,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+188,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+189,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+190,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+191,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+192,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+193,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+194,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+195,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+196,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+197,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+198,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+199,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+200,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+201,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+202,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+203,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+204,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+205,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+206,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+207,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+208,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+209,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+210,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+211,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+212,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+213,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+214,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+215,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+216,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+217,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+218,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+219,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+220,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+221,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+222,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+223,harmful,not_harmful,not harmful. Cyberbullying type: None.
+224,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+225,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+226,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+227,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+228,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+229,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+230,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+231,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+232,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+233,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+234,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+235,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+236,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+237,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+238,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+239,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+240,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+241,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+242,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+243,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+244,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+245,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+246,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+247,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+248,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+249,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+250,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+251,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+252,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+253,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+254,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+255,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+256,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+257,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+258,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+259,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+260,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+261,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+262,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+263,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+264,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+265,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+266,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+267,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+268,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+269,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+270,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+271,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+272,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+273,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+274,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+275,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+276,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+277,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+278,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+279,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+280,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+281,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+282,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+283,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+284,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+285,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+286,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+287,not_harmful,not_harmful,not harmful. Cyberbullying type: Curse_or_Exclusion.
+288,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+289,not_harmful,not_harmful,not harmful. Cyberbullying type: Defamation.
+290,not_harmful,not_harmful,not harmful. Cyberbullying type: Defamation.
+291,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+292,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+293,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+294,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+295,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+296,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+297,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+298,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+299,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+300,harmful,harmful,harmful. Cyberbullying type: Defamation.
+301,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+302,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+303,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+304,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+305,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+306,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+307,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+308,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+309,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+310,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+311,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+312,not_harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+313,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+314,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+315,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+316,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+317,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+318,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+319,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+320,harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+321,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+322,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+323,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+324,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+325,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+326,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+327,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+328,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+329,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+330,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+331,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+332,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+333,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+334,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+335,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+336,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+337,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+338,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+339,harmful,harmful,harmful. Cyberbullying type: None.
+340,harmful,not_harmful,not harmful. Cyberbullying type: None.
+341,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+342,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+343,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+344,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+345,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+346,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+347,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+348,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+349,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+350,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+351,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+352,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+353,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+354,harmful,not_harmful,not harmful. Cyberbullying type: None.
+355,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+356,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+357,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+358,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+359,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+360,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+361,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+362,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+363,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+364,harmful,harmful,harmful. Cyberbullying type: None.
+365,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+366,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+367,not_harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+368,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+369,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+370,harmful,not_harmful,not harmful. Cyberbullying type: None.
+371,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+372,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+373,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+374,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+375,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+376,harmful,harmful,harmful. Cyberbullying type: None.
+377,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+378,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+379,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+380,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+381,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+382,harmful,not_harmful,not harmful. Cyberbullying type: None.
+383,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+384,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+385,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+386,harmful,not_harmful,not harmful. Cyberbullying type: None.
+387,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+388,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+389,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+390,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+391,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+392,harmful,not_harmful,not harmful. Cyberbullying type: None.
+393,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+394,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+395,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+396,harmful,not_harmful,not harmful. Cyberbullying type: None.
+397,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+398,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+399,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+400,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+401,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+402,harmful,not_harmful,not harmful. Cyberbullying type: None.
+403,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+404,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+405,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+406,harmful,not_harmful,not harmful. Cyberbullying type: None.
+407,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+408,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+409,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+410,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+411,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+412,harmful,not_harmful,not harmful. Cyberbullying type: None.
+413,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+414,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+415,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+416,harmful,not_harmful,not harmful. Cyberbullying type: None.
+417,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+418,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+419,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+420,harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+421,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+422,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+423,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+424,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+425,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+426,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+427,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+428,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+429,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+430,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+431,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+432,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+433,harmful,harmful,harmful. Cyberbullying type: None.
+434,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+435,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+436,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+437,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+438,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+439,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+440,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+441,harmful,harmful,harmful. Cyberbullying type: None.
+442,harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+443,not_harmful,harmful,harmful. Cyberbullying type: None.
+444,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+445,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+446,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+447,harmful,harmful,harmful. Cyberbullying type: None.
+448,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+449,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+450,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+451,harmful,not_harmful,not harmful. Cyberbullying type: None.
+452,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+453,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+454,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+455,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+456,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+457,harmful,harmful,harmful. Cyberbullying type: None.
+458,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+459,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+460,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+461,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+462,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+463,harmful,harmful,harmful. Cyberbullying type: None.
+464,not_harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+465,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+466,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+467,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+468,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+469,harmful,harmful,harmful. Cyberbullying type: None.
+470,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+471,harmful,harmful,harmful. Cyberbullying type: None.
+472,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+473,harmful,not_harmful,not harmful. Cyberbullying type: None.
+474,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+475,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+476,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+477,harmful,not_harmful,not harmful. Cyberbullying type: None.
+478,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+479,harmful,harmful,harmful. Cyberbullying type: None.
+480,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+481,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+482,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+483,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+484,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+485,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+486,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+487,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+488,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+489,harmful,harmful,harmful. Cyberbullying type: None.
+490,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+491,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+492,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+493,harmful,harmful,harmful. Cyberbullying type: None.
+494,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+495,harmful,harmful,harmful. Cyberbullying type: None.
+496,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+497,harmful,harmful,harmful. Cyberbullying type: None.
+498,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+499,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+500,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+501,harmful,not_harmful,not harmful. Cyberbullying type: None.
+502,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+503,harmful,harmful,harmful. Cyberbullying type: None.
+504,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+505,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+506,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+507,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+508,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+509,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+510,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+511,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+512,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+513,harmful,harmful,harmful. Cyberbullying type: None.
+514,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+515,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+516,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+517,harmful,harmful,harmful. Cyberbullying type: None.
+518,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+519,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+520,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+521,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+522,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+523,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+524,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+525,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+526,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+527,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+528,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+529,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+530,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+531,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+532,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+533,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+534,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+535,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+536,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+537,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+538,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+539,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+540,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+541,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+542,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+543,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+544,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+545,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+546,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+547,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+548,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+549,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+550,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+551,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+552,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+553,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+554,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+555,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+556,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+557,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+558,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+559,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+560,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+561,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+562,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+563,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+564,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+565,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+566,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+567,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+568,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+569,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+570,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+571,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+572,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+573,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+574,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+575,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+576,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+577,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+578,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+579,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+580,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+581,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+582,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+583,harmful,harmful,harmful. Cyberbullying type: None.
+584,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+585,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+586,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+587,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+588,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+589,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+590,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+591,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+592,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+593,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+594,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+595,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+596,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+597,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+598,harmful,harmful,harmful. Cyberbullying type: None.
+599,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+600,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+601,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+602,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+603,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+604,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+605,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+606,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+607,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+608,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+609,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+610,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+611,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+612,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+613,harmful,harmful,harmful. Cyberbullying type: None.
+614,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+615,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+616,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+617,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+618,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+619,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+620,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+621,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+622,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+623,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+624,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+625,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+626,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+627,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+628,harmful,harmful,harmful. Cyberbullying type: None.
+629,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+630,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+631,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+632,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+633,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+634,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+635,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+636,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+637,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+638,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+639,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+640,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+641,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+642,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+643,harmful,harmful,harmful. Cyberbullying type: None.
+644,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+645,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+646,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+647,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+648,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+649,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+650,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+651,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+652,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+653,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+654,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+655,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+656,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+657,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+658,harmful,harmful,harmful. Cyberbullying type: None.
+659,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+660,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+661,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+662,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+663,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+664,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+665,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+666,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+667,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+668,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+669,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+670,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+671,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+672,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+673,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+674,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+675,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+676,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+677,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+678,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+679,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+680,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+681,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+682,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+683,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+684,not_harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+685,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+686,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+687,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+688,not_harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+689,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+690,harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+691,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+692,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+693,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+694,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+695,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+696,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+697,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+698,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+699,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+700,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+701,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+702,not_harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+703,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+704,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+705,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+706,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+707,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+708,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+709,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+710,harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+711,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+712,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+713,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+714,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+715,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+716,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+717,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+718,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+719,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+720,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+721,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+722,not_harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+723,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+724,harmful,harmful,harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+725,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+726,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+727,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+728,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+729,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+730,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Discrimination_Sexism.
+731,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+732,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+733,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+734,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+735,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+736,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+737,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+738,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+739,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+740,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+741,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+742,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+743,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+744,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+745,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+746,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+747,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+748,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+749,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+750,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+751,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+752,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+753,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+754,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+755,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+756,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+757,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+758,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+759,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+760,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+761,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+762,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+763,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+764,harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+765,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+766,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+767,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+768,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+769,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+770,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+771,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+772,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+773,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+774,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+775,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+776,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+777,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+778,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+779,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+780,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+781,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+782,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+783,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+784,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+785,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+786,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+787,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+788,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+789,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+790,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+791,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+792,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+793,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+794,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+795,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+796,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+797,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+798,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+799,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+800,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+801,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+802,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+803,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+804,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+805,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+806,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+807,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+808,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+809,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+810,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_General.
+811,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+812,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+813,harmful,harmful,harmful. Cyberbullying type: None.
+814,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+815,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+816,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+817,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+818,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+819,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+820,harmful,not_harmful,not harmful. Cyberbullying type: None.
+821,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+822,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+823,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+824,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+825,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+826,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+827,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+828,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+829,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+830,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+831,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+832,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+833,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+834,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+835,not_harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+836,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+837,not_harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+838,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+839,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+840,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+841,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+842,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+843,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+844,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+845,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+846,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+847,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+848,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+849,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+850,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+851,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+852,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+853,not_harmful,harmful,harmful. Cyberbullying type: None.
+854,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+855,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+856,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+857,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+858,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+859,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+860,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+861,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+862,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+863,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+864,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+865,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+866,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+867,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+868,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+869,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+870,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+871,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+872,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+873,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+874,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+875,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+876,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+877,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+878,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+879,harmful,not_harmful,not harmful. Cyberbullying type: None.
+880,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+881,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+882,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+883,harmful,harmful,harmful. Cyberbullying type: Insult_Attacking_Relatives.
+884,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+885,not_harmful,harmful,harmful. Cyberbullying type: None.
+886,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+887,harmful,harmful,harmful. Cyberbullying type: None.
+888,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+889,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+890,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+891,harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+892,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+893,not_harmful,harmful,harmful. Cyberbullying type: Threat_or_blackmail.
+894,harmful,not_harmful,not harmful. Cyberbullying type: None.
+895,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+896,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+897,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+898,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+899,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+900,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+901,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+902,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+903,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+904,harmful,harmful,harmful. Cyberbullying type: None.
+905,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+906,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+907,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+908,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+909,harmful,harmful,harmful. Cyberbullying type: Curse_or_Exclusion.
+910,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+911,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+912,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+913,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+914,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+915,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+916,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+917,not_harmful,not_harmful,not harmful. Cyberbullying type: Insult_Attacking_Relatives.
+918,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+919,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+920,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+921,not_harmful,harmful,harmful. Cyberbullying type: None.
+922,not_harmful,harmful,harmful. Cyberbullying type: None.
+923,not_harmful,harmful,harmful. Cyberbullying type: Insult_General.
+924,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+925,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+926,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+927,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+928,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+929,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+930,harmful,harmful,harmful. Cyberbullying type: Insult_General.
+931,not_harmful,not_harmful,not harmful. Cyberbullying type: None.
+932,not_harmful,not_harmful,not harmful. Cyberbullying type: None.

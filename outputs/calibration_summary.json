@@ -1,0 +1,276 @@
+{
+  "raw": {
+    "civilcomments__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0895,
+      "std_ece": 0.0944,
+      "mean_brier": 0.1873
+    },
+    "civilcomments__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.1463,
+      "std_ece": 0.0707,
+      "mean_brier": 0.2107
+    },
+    "civilcomments__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.2075,
+      "std_ece": 0.1444,
+      "mean_brier": 0.2799
+    },
+    "civilcomments__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0198,
+      "std_ece": 0.0043,
+      "mean_brier": 0.1029
+    },
+    "civilcomments__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0143,
+      "std_ece": 0.0065,
+      "mean_brier": 0.1091
+    },
+    "civilcomments__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0891,
+      "std_ece": 0.0368,
+      "mean_brier": 0.1845
+    },
+    "hatexplain__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.2103,
+      "std_ece": 0.0587,
+      "mean_brier": 0.2806
+    },
+    "hatexplain__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.1921,
+      "std_ece": 0.0698,
+      "mean_brier": 0.262
+    },
+    "hatexplain__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.1874,
+      "std_ece": 0.0498,
+      "mean_brier": 0.2615
+    },
+    "hatexplain__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0533,
+      "std_ece": 0.0123,
+      "mean_brier": 0.1789
+    },
+    "hatexplain__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.1014,
+      "std_ece": 0.0158,
+      "mean_brier": 0.1929
+    },
+    "hatexplain__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.1688,
+      "std_ece": 0.1115,
+      "mean_brier": 0.2545
+    },
+    "olid__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.104,
+      "std_ece": 0.0591,
+      "mean_brier": 0.1872
+    },
+    "olid__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.1173,
+      "std_ece": 0.0432,
+      "mean_brier": 0.1739
+    },
+    "olid__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.0812,
+      "std_ece": 0.06,
+      "mean_brier": 0.179
+    },
+    "olid__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0245,
+      "std_ece": 0.0069,
+      "mean_brier": 0.1248
+    },
+    "olid__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0325,
+      "std_ece": 0.0025,
+      "mean_brier": 0.1398
+    },
+    "olid__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0895,
+      "std_ece": 0.0592,
+      "mean_brier": 0.1763
+    },
+    "synb_w4_dev__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.048,
+      "std_ece": 0.017,
+      "mean_brier": 0.0762
+    },
+    "synb_w4_dev__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.0557,
+      "std_ece": 0.0348,
+      "mean_brier": 0.0759
+    },
+    "synb_w4_dev__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.0576,
+      "std_ece": 0.0254,
+      "mean_brier": 0.0819
+    },
+    "synb_w4_dev__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0174,
+      "std_ece": 0.0053,
+      "mean_brier": 0.061
+    },
+    "synb_w4_dev__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0181,
+      "std_ece": 0.0024,
+      "mean_brier": 0.0653
+    },
+    "synb_w4_dev__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0434,
+      "std_ece": 0.0204,
+      "mean_brier": 0.0721
+    },
+    "synb_w4_test__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0352,
+      "std_ece": 0.0114,
+      "mean_brier": 0.066
+    },
+    "synb_w4_test__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.0585,
+      "std_ece": 0.0315,
+      "mean_brier": 0.0732
+    },
+    "synb_w4_test__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.0534,
+      "std_ece": 0.026,
+      "mean_brier": 0.0789
+    },
+    "synb_w4_test__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0261,
+      "std_ece": 0.0062,
+      "mean_brier": 0.0612
+    },
+    "synb_w4_test__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0188,
+      "std_ece": 0.0052,
+      "mean_brier": 0.0641
+    },
+    "synb_w4_test__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0442,
+      "std_ece": 0.0232,
+      "mean_brier": 0.0757
+    }
+  },
+  "tempscaled": {
+    "civilcomments__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.063,
+      "std_ece": 0.036
+    },
+    "civilcomments__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.1127,
+      "std_ece": 0.0567
+    },
+    "civilcomments__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.152,
+      "std_ece": 0.1817
+    },
+    "civilcomments__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0154,
+      "std_ece": 0.0019
+    },
+    "civilcomments__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0159,
+      "std_ece": 0.0039
+    },
+    "civilcomments__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0461,
+      "std_ece": 0.0263
+    },
+    "hatexplain__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.153,
+      "std_ece": 0.032
+    },
+    "hatexplain__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.1089,
+      "std_ece": 0.0268
+    },
+    "hatexplain__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.1153,
+      "std_ece": 0.0125
+    },
+    "hatexplain__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0598,
+      "std_ece": 0.0152
+    },
+    "hatexplain__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0859,
+      "std_ece": 0.0249
+    },
+    "hatexplain__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.1114,
+      "std_ece": 0.0751
+    },
+    "olid__bert_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0546,
+      "std_ece": 0.0239
+    },
+    "olid__deberta_v3": {
+      "n_seeds": 3,
+      "mean_ece": 0.046,
+      "std_ece": 0.0285
+    },
+    "olid__hatebert": {
+      "n_seeds": 3,
+      "mean_ece": 0.0372,
+      "std_ece": 0.0051
+    },
+    "olid__internlm2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.029,
+      "std_ece": 0.0026
+    },
+    "olid__qwen2_5_7b": {
+      "n_seeds": 3,
+      "mean_ece": 0.0218,
+      "std_ece": 0.0068
+    },
+    "olid__roberta_base": {
+      "n_seeds": 3,
+      "mean_ece": 0.0537,
+      "std_ece": 0.0054
+    }
+  }
+}

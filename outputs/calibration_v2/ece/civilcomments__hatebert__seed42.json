@@ -1,0 +1,74 @@
+{
+  "n": 3000,
+  "ece": 0.1313,
+  "mce": 0.1803,
+  "brier": 0.213,
+  "n_bins": 15,
+  "bins": [
+    {
+      "lo": 0.4667,
+      "hi": 0.5333,
+      "n": 98,
+      "mean_conf": 0.5171,
+      "mean_acc": 0.5204,
+      "gap": 0.0033
+    },
+    {
+      "lo": 0.5333,
+      "hi": 0.6,
+      "n": 174,
+      "mean_conf": 0.5688,
+      "mean_acc": 0.5575,
+      "gap": 0.0113
+    },
+    {
+      "lo": 0.6,
+      "hi": 0.6667,
+      "n": 215,
+      "mean_conf": 0.6303,
+      "mean_acc": 0.5488,
+      "gap": 0.0814
+    },
+    {
+      "lo": 0.6667,
+      "hi": 0.7333,
+      "n": 201,
+      "mean_conf": 0.6997,
+      "mean_acc": 0.5771,
+      "gap": 0.1226
+    },
+    {
+      "lo": 0.7333,
+      "hi": 0.8,
+      "n": 252,
+      "mean_conf": 0.7687,
+      "mean_acc": 0.6984,
+      "gap": 0.0703
+    },
+    {
+      "lo": 0.8,
+      "hi": 0.8667,
+      "n": 313,
+      "mean_conf": 0.8349,
+      "mean_acc": 0.7476,
+      "gap": 0.0873
+    },
+    {
+      "lo": 0.8667,
+      "hi": 0.9333,
+      "n": 434,
+      "mean_conf": 0.9025,
+      "mean_acc": 0.7465,
+      "gap": 0.1559
+    },
+    {
+      "lo": 0.9333,
+      "hi": 1.0,
+      "n": 1313,
+      "mean_conf": 0.977,
+      "mean_acc": 0.7966,
+      "gap": 0.1803
+    }
+  ],
+  "source_csv": "D:\\5.13 Awesome\u8bba\u6587skill\\CYBERBULLYING\u6570\u636e\u96c6\u6587\u7ae0\\PAPER2_CODEX\\paper\\outputs\\calibration_v2\\preds\\civilcomments__hatebert__seed42.csv"
+}

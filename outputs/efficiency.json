@@ -1,0 +1,66 @@
+﻿[
+  {
+    "family": "encoder",
+    "name": "BERT-base-uncased",
+    "hf_path": "bert-base-uncased",
+    "params_total": 109483778,
+    "params_trainable": 109483778,
+    "params_trainable_pct": 100.0,
+    "vram_peak_mb_inference": 429.1,
+    "latency_ms_per_utterance": 2.69
+  },
+  {
+    "family": "encoder",
+    "name": "RoBERTa-base",
+    "hf_path": "roberta-base",
+    "params_total": 124647170,
+    "params_trainable": 124647170,
+    "params_trainable_pct": 100.0,
+    "vram_peak_mb_inference": 488.1,
+    "latency_ms_per_utterance": 2.86
+  },
+  {
+    "family": "encoder",
+    "name": "HateBERT",
+    "hf_path": "GroNLP/hateBERT",
+    "params_total": 109483778,
+    "params_trainable": 109483778,
+    "params_trainable_pct": 100.0,
+    "vram_peak_mb_inference": 430.0,
+    "latency_ms_per_utterance": 2.65
+  },
+  {
+    "family": "encoder",
+    "name": "DeBERTa-v3-base",
+    "hf_path": "microsoft/deberta-v3-base",
+    "params_total": 184423682,
+    "params_trainable": 184423682,
+    "params_trainable_pct": 100.0,
+    "vram_peak_mb_inference": 724.4,
+    "latency_ms_per_utterance": 10.99
+  },
+  {
+    "family": "llm-lora",
+    "name": "InternLM2.5-7B + LoRA",
+    "hf_path": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+    "adapter_path": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed42",
+    "params_total": 4266921984,
+    "params_trainable": 0,
+    "params_trainable_pct": 0.0,
+    "vram_peak_mb_inference": 5227.9,
+    "latency_ms_per_utterance": 463.65,
+    "decoding": "greedy 8-token, 4-bit NF4"
+  },
+  {
+    "family": "llm-lora",
+    "name": "Qwen2.5-7B + LoRA",
+    "hf_path": "<WORK_ROOT>/hf_cache/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+    "adapter_path": "<CKPT_ROOT>/llm/qwen2_5_7b_w4_seed42",
+    "params_total": 4373157376,
+    "params_trainable": 0,
+    "params_trainable_pct": 0.0,
+    "vram_peak_mb_inference": 5698.3,
+    "latency_ms_per_utterance": 418.86,
+    "decoding": "greedy 8-token, 4-bit NF4"
+  }
+]

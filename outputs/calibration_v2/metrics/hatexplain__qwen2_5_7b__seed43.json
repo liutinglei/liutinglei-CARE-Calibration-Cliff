@@ -1,0 +1,42 @@
+﻿{
+  "mode": "verbalizer_scoring",
+  "base_model": "<WORK_ROOT>/hf_cache/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "adapter": "<CKPT_ROOT>/llm/qwen2_5_7b_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.7271309771309772,
+  "not_harmful_precision": 0.772823779193206,
+  "not_harmful_recall": 0.46547314578005117,
+  "not_harmful_f1": 0.5810055865921788,
+  "harmful_precision": 0.7123193392980042,
+  "harmful_recall": 0.9063047285464098,
+  "harmful_f1": 0.7976878612716763,
+  "macro_precision": 0.742571559245605,
+  "macro_recall": 0.6858889371632304,
+  "macro_f1": 0.6893467239319275,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      364,
+      418
+    ],
+    [
+      107,
+      1035
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.77      0.47      0.58       782\n     harmful       0.71      0.91      0.80      1142\n\n    accuracy                           0.73      1924\n   macro avg       0.74      0.69      0.69      1924\nweighted avg       0.74      0.73      0.71      1924\n",
+  "verbalizer_harm_ids": [
+    71,
+    27756
+  ],
+  "verbalizer_not_ids": [
+    537,
+    1921
+  ]
+}

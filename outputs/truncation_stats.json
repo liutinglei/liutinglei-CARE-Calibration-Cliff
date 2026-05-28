@@ -1,0 +1,110 @@
+﻿{
+  "roberta_base": {
+    "tokenizer": "roberta-base",
+    "hf_path": "roberta-base",
+    "w0": {
+      "n": 933,
+      "max_length": 256,
+      "median_tokens": 22,
+      "p95_tokens": 35,
+      "max_tokens": 54,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w1": {
+      "n": 933,
+      "max_length": 256,
+      "median_tokens": 42,
+      "p95_tokens": 65,
+      "max_tokens": 90,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w2": {
+      "n": 933,
+      "max_length": 256,
+      "median_tokens": 62,
+      "p95_tokens": 94,
+      "max_tokens": 129,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w4": {
+      "n": 933,
+      "max_length": 256,
+      "median_tokens": 102,
+      "p95_tokens": 151,
+      "max_tokens": 202,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w8": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 182,
+      "p95_tokens": 264,
+      "max_tokens": 335,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    }
+  },
+  "internlm2_5_7b": {
+    "tokenizer": "internlm2_5-7b-chat",
+    "hf_path": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+    "w0": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 21,
+      "p95_tokens": 35,
+      "max_tokens": 54,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w1": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 41,
+      "p95_tokens": 64,
+      "max_tokens": 89,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w2": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 60,
+      "p95_tokens": 92,
+      "max_tokens": 129,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w4": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 99,
+      "p95_tokens": 148,
+      "max_tokens": 200,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    },
+    "w8": {
+      "n": 933,
+      "max_length": 512,
+      "median_tokens": 175,
+      "p95_tokens": 259,
+      "max_tokens": 333,
+      "truncated_rows": 0,
+      "truncation_rate": 0.0,
+      "target_median_tokens": 20
+    }
+  }
+}

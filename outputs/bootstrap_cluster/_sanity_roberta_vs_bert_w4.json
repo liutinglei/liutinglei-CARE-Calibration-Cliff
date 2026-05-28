@@ -1,0 +1,41 @@
+{
+  "system_A": "roberta_base_w4",
+  "system_A_files": [
+    "roberta_base_w4_seed41_predictions",
+    "roberta_base_w4_seed42_predictions",
+    "roberta_base_w4_seed43_predictions"
+  ],
+  "system_B": "bert_base_w4",
+  "system_B_files": [
+    "bert_base_w4_seed41_predictions",
+    "bert_base_w4_seed42_predictions",
+    "bert_base_w4_seed43_predictions"
+  ],
+  "B": 1000,
+  "seed": 42,
+  "resampling_unit": "conversation",
+  "n_clusters": 13,
+  "n_rows": 933,
+  "A_mean_macroF1": 0.904157026956605,
+  "A_ci95_macroF1": [
+    0.856800688787445,
+    0.9350912311326923
+  ],
+  "B_mean_macroF1": 0.8872768248461504,
+  "B_ci95_macroF1": [
+    0.8390003693542036,
+    0.9242530753449961
+  ],
+  "diff_macroF1_mean": 0.01688020211045451,
+  "diff_macroF1_ci95": [
+    -0.00864159984212752,
+    0.04867741430018795
+  ],
+  "p_value_macroF1_two_sided": 0.25,
+  "diff_harmF1_mean": 0.02471696744299035,
+  "diff_harmF1_ci95": [
+    -0.011531247257211913,
+    0.06978106733306633
+  ],
+  "p_value_harmF1_two_sided": 0.218
+}

@@ -1,0 +1,26 @@
+{
+  "accuracy": 0.9078242229367631,
+  "macro_f1": 0.8991934268053672,
+  "not_harmful_f1": 0.9286898839137645,
+  "harmful_f1": 0.8696969696969697,
+  "seed": 43,
+  "window": 4,
+  "backbone": "roberta-base",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      560,
+      50
+    ],
+    [
+      36,
+      287
+    ]
+  ]
+}

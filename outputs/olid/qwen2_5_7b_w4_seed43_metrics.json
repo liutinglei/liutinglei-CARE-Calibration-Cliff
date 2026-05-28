@@ -1,0 +1,33 @@
+﻿{
+  "base_model": "<WORK_ROOT>/hf_cache/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28",
+  "adapter": "<CKPT_ROOT>/llm/qwen2_5_7b_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.7790697674418605,
+  "not_harmful_precision": 0.8785211267605634,
+  "not_harmful_recall": 0.8048387096774193,
+  "not_harmful_f1": 0.8400673400673401,
+  "harmful_precision": 0.5856164383561644,
+  "harmful_recall": 0.7125,
+  "harmful_f1": 0.6428571428571429,
+  "macro_precision": 0.7320687825583638,
+  "macro_recall": 0.7586693548387097,
+  "macro_f1": 0.7414622414622415,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      499,
+      121
+    ],
+    [
+      69,
+      171
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.88      0.80      0.84       620\n     harmful       0.59      0.71      0.64       240\n\n    accuracy                           0.78       860\n   macro avg       0.73      0.76      0.74       860\nweighted avg       0.80      0.78      0.79       860\n"
+}

@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/bert_base_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.6117463617463618,
+  "not_harmful_precision": 0.5362318840579711,
+  "not_harmful_recall": 0.3312020460358056,
+  "not_harmful_f1": 0.40948616600790516,
+  "harmful_precision": 0.63705759888966,
+  "harmful_recall": 0.8038528896672504,
+  "harmful_f1": 0.710801393728223,
+  "macro_precision": 0.5866447414738155,
+  "macro_recall": 0.5675274678515281,
+  "macro_f1": 0.5601437798680641,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      259,
+      523
+    ],
+    [
+      224,
+      918
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.54      0.33      0.41       782\n     harmful       0.64      0.80      0.71      1142\n\n    accuracy                           0.61      1924\n   macro avg       0.59      0.57      0.56      1924\nweighted avg       0.60      0.61      0.59      1924\n"
+}

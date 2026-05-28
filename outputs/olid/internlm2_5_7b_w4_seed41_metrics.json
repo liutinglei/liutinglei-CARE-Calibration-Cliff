@@ -1,0 +1,33 @@
+﻿{
+  "base_model": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+  "adapter": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed41",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.8232558139534883,
+  "not_harmful_precision": 0.843108504398827,
+  "not_harmful_recall": 0.9274193548387096,
+  "not_harmful_f1": 0.8832565284178188,
+  "harmful_precision": 0.7471910112359551,
+  "harmful_recall": 0.5541666666666667,
+  "harmful_f1": 0.6363636363636364,
+  "macro_precision": 0.7951497578173911,
+  "macro_recall": 0.7407930107526881,
+  "macro_f1": 0.7598100823907276,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      575,
+      45
+    ],
+    [
+      107,
+      133
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.84      0.93      0.88       620\n     harmful       0.75      0.55      0.64       240\n\n    accuracy                           0.82       860\n   macro avg       0.80      0.74      0.76       860\nweighted avg       0.82      0.82      0.81       860\n"
+}

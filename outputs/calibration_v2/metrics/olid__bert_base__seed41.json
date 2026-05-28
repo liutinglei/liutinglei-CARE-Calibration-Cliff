@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/bert_base_w4_seed41",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.7744186046511627,
+  "not_harmful_precision": 0.8104956268221575,
+  "not_harmful_recall": 0.896774193548387,
+  "not_harmful_f1": 0.8514548238897397,
+  "harmful_precision": 0.632183908045977,
+  "harmful_recall": 0.4583333333333333,
+  "harmful_f1": 0.5314009661835749,
+  "macro_precision": 0.7213397674340672,
+  "macro_recall": 0.6775537634408602,
+  "macro_f1": 0.6914278950366572,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      556,
+      64
+    ],
+    [
+      130,
+      110
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.81      0.90      0.85       620\n     harmful       0.63      0.46      0.53       240\n\n    accuracy                           0.77       860\n   macro avg       0.72      0.68      0.69       860\nweighted avg       0.76      0.77      0.76       860\n"
+}

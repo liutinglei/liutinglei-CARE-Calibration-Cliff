@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/deberta_v3_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.8011627906976744,
+  "not_harmful_precision": 0.8355754857997011,
+  "not_harmful_recall": 0.9016129032258065,
+  "not_harmful_f1": 0.8673390224980605,
+  "harmful_precision": 0.680628272251309,
+  "harmful_recall": 0.5416666666666666,
+  "harmful_f1": 0.6032482598607889,
+  "macro_precision": 0.758101879025505,
+  "macro_recall": 0.7216397849462366,
+  "macro_f1": 0.7352936411794246,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      559,
+      61
+    ],
+    [
+      110,
+      130
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.84      0.90      0.87       620\n     harmful       0.68      0.54      0.60       240\n\n    accuracy                           0.80       860\n   macro avg       0.76      0.72      0.74       860\nweighted avg       0.79      0.80      0.79       860\n"
+}

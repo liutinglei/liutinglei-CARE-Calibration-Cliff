@@ -1,0 +1,51 @@
+﻿{
+  "model": "<WORK_ROOT>/models/internlm2_5-7b-chat + LoRA strict w1 seed=41",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.9163987138263665,
+  "not_harmful_precision": 0.9235668789808917,
+  "not_harmful_recall": 0.9508196721311475,
+  "not_harmful_f1": 0.9369951534733441,
+  "harmful_precision": 0.9016393442622951,
+  "harmful_recall": 0.8513931888544891,
+  "harmful_f1": 0.8757961783439491,
+  "macro_precision": 0.9126031116215934,
+  "macro_recall": 0.9011064304928182,
+  "macro_f1": 0.9063956659086465,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      580,
+      30
+    ],
+    [
+      48,
+      275
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.92      0.95      0.94       610\n     harmful       0.90      0.85      0.88       323\n\n    accuracy                           0.92       933\n   macro avg       0.91      0.90      0.91       933\nweighted avg       0.92      0.92      0.92       933\n",
+  "config": {
+    "model_name": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+    "data_dir": "<DATA_ROOT>/data",
+    "window": 1,
+    "seed": 41,
+    "output_dir": "<CKPT_ROOT>/llm/internlm2_5_7b_w1_seed41",
+    "metrics_out": "<DATA_ROOT>/outputs/llm/internlm2_5_7b_w1_seed41_metrics.json",
+    "predictions_out": "<DATA_ROOT>/outputs/llm/internlm2_5_7b_w1_seed41_predictions.csv",
+    "lr": 0.0002,
+    "epochs": 1.0,
+    "train_bsz": 4,
+    "grad_accum": 4,
+    "eval_bsz": 8,
+    "max_length": 512,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "target_modules": "auto",
+    "quant_4bit": true
+  }
+}

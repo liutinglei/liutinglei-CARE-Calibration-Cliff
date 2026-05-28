@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/roberta_base_w4_seed42",
+  "test_jsonl": "<DATA_ROOT>/data/synbullying_strict_w4_dev.jsonl",
+  "total": 1608,
+  "valid_predictions": 1608,
+  "invalid_predictions": 0,
+  "accuracy": 0.9073383084577115,
+  "not_harmful_precision": 0.9508070714834742,
+  "not_harmful_recall": 0.9357034795763994,
+  "not_harmful_f1": 0.9431948150972169,
+  "harmful_precision": 0.7231270358306189,
+  "harmful_recall": 0.7762237762237763,
+  "harmful_f1": 0.7487352445193929,
+  "macro_precision": 0.8369670536570466,
+  "macro_recall": 0.8559636279000878,
+  "macro_f1": 0.8459650298083049,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      1237,
+      85
+    ],
+    [
+      64,
+      222
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.95      0.94      0.94      1322\n     harmful       0.72      0.78      0.75       286\n\n    accuracy                           0.91      1608\n   macro avg       0.84      0.86      0.85      1608\nweighted avg       0.91      0.91      0.91      1608\n"
+}

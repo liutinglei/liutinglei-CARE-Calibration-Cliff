@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/roberta_base_w4_seed41",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.7325581395348837,
+  "not_harmful_precision": 0.8597785977859779,
+  "not_harmful_recall": 0.7516129032258064,
+  "not_harmful_f1": 0.802065404475043,
+  "harmful_precision": 0.5157232704402516,
+  "harmful_recall": 0.6833333333333333,
+  "harmful_f1": 0.5878136200716846,
+  "macro_precision": 0.6877509341131147,
+  "macro_recall": 0.7174731182795699,
+  "macro_f1": 0.6949395122733638,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      466,
+      154
+    ],
+    [
+      76,
+      164
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.86      0.75      0.80       620\n     harmful       0.52      0.68      0.59       240\n\n    accuracy                           0.73       860\n   macro avg       0.69      0.72      0.69       860\nweighted avg       0.76      0.73      0.74       860\n"
+}

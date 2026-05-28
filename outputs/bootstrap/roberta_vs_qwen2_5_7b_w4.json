@@ -1,0 +1,31 @@
+{
+  "system_A": "roberta_base_w4",
+  "system_A_files": [
+    "roberta_base_w4_seed41_predictions",
+    "roberta_base_w4_seed42_predictions",
+    "roberta_base_w4_seed43_predictions"
+  ],
+  "system_B": "qwen2_5_7b_w4",
+  "system_B_files": [
+    "qwen2_5_7b_w4_seed41_predictions",
+    "qwen2_5_7b_w4_seed42_predictions",
+    "qwen2_5_7b_w4_seed43_predictions"
+  ],
+  "B": 5000,
+  "A_mean_macroF1": 0.9085271122660532,
+  "A_ci95": [
+    0.8884623558790712,
+    0.9278390096250465
+  ],
+  "B_mean_macroF1": 0.9034418969024515,
+  "B_ci95": [
+    0.8783273234236579,
+    0.9281118915883735
+  ],
+  "diff_mean": 0.005085215363601597,
+  "diff_ci95": [
+    -0.02198090643405153,
+    0.03147725588874438
+  ],
+  "p_value_two_sided": 0.7216
+}

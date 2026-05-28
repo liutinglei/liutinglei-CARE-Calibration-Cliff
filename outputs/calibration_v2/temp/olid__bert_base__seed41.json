@@ -1,0 +1,11 @@
+{
+  "val_csv": "D:\\5.13 Awesome\u8bba\u6587skill\\CYBERBULLYING\u6570\u636e\u96c6\u6587\u7ae0\\PAPER2_CODEX\\paper\\outputs\\calibration_v2\\preds\\synb_w4_dev__bert_base__seed41.csv",
+  "val_n": 1608,
+  "target_csv": "D:\\5.13 Awesome\u8bba\u6587skill\\CYBERBULLYING\u6570\u636e\u96c6\u6587\u7ae0\\PAPER2_CODEX\\paper\\outputs\\calibration_v2\\preds\\olid__bert_base__seed41.csv",
+  "out_csv": "D:\\5.13 Awesome\u8bba\u6587skill\\CYBERBULLYING\u6570\u636e\u96c6\u6587\u7ae0\\PAPER2_CODEX\\paper\\outputs\\calibration_v2\\preds_temp\\olid__bert_base__seed41.csv",
+  "n_rows_rescaled": 860,
+  "temperature": 1.3455,
+  "val_nll_T_eq_1": 0.2437,
+  "val_nll_at_T": 0.2311,
+  "val_nll_improvement": 0.0126
+}

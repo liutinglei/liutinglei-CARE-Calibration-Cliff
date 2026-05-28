@@ -1,0 +1,33 @@
+﻿{
+  "base_model": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+  "adapter": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.7505197505197505,
+  "not_harmful_precision": 0.7374213836477987,
+  "not_harmful_recall": 0.5997442455242967,
+  "not_harmful_f1": 0.6614950634696756,
+  "harmful_precision": 0.7569875776397516,
+  "harmful_recall": 0.8537653239929948,
+  "harmful_f1": 0.8024691358024691,
+  "macro_precision": 0.7472044806437752,
+  "macro_recall": 0.7267547847586457,
+  "macro_f1": 0.7319820996360724,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      469,
+      313
+    ],
+    [
+      167,
+      975
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.74      0.60      0.66       782\n     harmful       0.76      0.85      0.80      1142\n\n    accuracy                           0.75      1924\n   macro avg       0.75      0.73      0.73      1924\nweighted avg       0.75      0.75      0.75      1924\n"
+}

@@ -1,0 +1,41 @@
+{
+  "model": "bert-base-uncased strict w4 seed=42",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.9067524115755627,
+  "not_harmful_precision": 0.9066874027993779,
+  "not_harmful_recall": 0.9557377049180328,
+  "not_harmful_f1": 0.9305666400638468,
+  "harmful_precision": 0.906896551724138,
+  "harmful_recall": 0.8142414860681114,
+  "harmful_f1": 0.8580750407830342,
+  "macro_precision": 0.9067919772617579,
+  "macro_recall": 0.8849895954930721,
+  "macro_f1": 0.8943208404234405,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      583,
+      27
+    ],
+    [
+      60,
+      263
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.91      0.96      0.93       610\n     harmful       0.91      0.81      0.86       323\n\n    accuracy                           0.91       933\n   macro avg       0.91      0.88      0.89       933\nweighted avg       0.91      0.91      0.91       933\n",
+  "config": {
+    "model_name": "bert-base-uncased",
+    "window": 4,
+    "seed": 42,
+    "lr": 2e-05,
+    "epochs": 5.0,
+    "batch_size": 32,
+    "max_length": 256,
+    "fp16": true
+  }
+}

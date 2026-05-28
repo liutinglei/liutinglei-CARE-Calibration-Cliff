@@ -1,0 +1,41 @@
+{
+  "model": "microsoft/deberta-v3-base strict w4 seed=41",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.9067524115755627,
+  "not_harmful_precision": 0.9252032520325203,
+  "not_harmful_recall": 0.9327868852459016,
+  "not_harmful_f1": 0.9289795918367347,
+  "harmful_precision": 0.8710691823899371,
+  "harmful_recall": 0.8575851393188855,
+  "harmful_f1": 0.8642745709828393,
+  "macro_precision": 0.8981362172112287,
+  "macro_recall": 0.8951860122823936,
+  "macro_f1": 0.896627081409787,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      569,
+      41
+    ],
+    [
+      46,
+      277
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.93      0.93      0.93       610\n     harmful       0.87      0.86      0.86       323\n\n    accuracy                           0.91       933\n   macro avg       0.90      0.90      0.90       933\nweighted avg       0.91      0.91      0.91       933\n",
+  "config": {
+    "model_name": "microsoft/deberta-v3-base",
+    "window": 4,
+    "seed": 41,
+    "lr": 1e-05,
+    "epochs": 5.0,
+    "batch_size": 16,
+    "max_length": 256,
+    "fp16": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "system_A": "internlm2_5_7b_w4",
+  "system_A_files": [
+    "internlm2_5_7b_w4_seed41_predictions",
+    "internlm2_5_7b_w4_seed42_predictions",
+    "internlm2_5_7b_w4_seed43_predictions"
+  ],
+  "system_B": "roberta_base_w4",
+  "system_B_files": [
+    "roberta_base_w4_seed41_predictions",
+    "roberta_base_w4_seed42_predictions",
+    "roberta_base_w4_seed43_predictions"
+  ],
+  "B": 5000,
+  "A_mean_macroF1": 0.9113910306971222,
+  "A_ci95": [
+    0.8892889130468352,
+    0.9325839217143566
+  ],
+  "B_mean_macroF1": 0.9083316021546519,
+  "B_ci95": [
+    0.8880991268361115,
+    0.9278116108421106
+  ],
+  "diff_mean": 0.003059428542470433,
+  "diff_ci95": [
+    -0.019552538551690042,
+    0.026326288726275127
+  ],
+  "p_value_two_sided": 0.8192
+}

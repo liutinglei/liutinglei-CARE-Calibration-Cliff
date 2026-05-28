@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/hatebert_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.6372141372141372,
+  "not_harmful_precision": 0.6,
+  "not_harmful_recall": 0.32225063938618925,
+  "not_harmful_f1": 0.4193011647254576,
+  "harmful_precision": 0.6476063829787234,
+  "harmful_recall": 0.8528896672504378,
+  "harmful_f1": 0.7362055933484505,
+  "macro_precision": 0.6238031914893617,
+  "macro_recall": 0.5875701533183135,
+  "macro_f1": 0.577753379036954,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      252,
+      530
+    ],
+    [
+      168,
+      974
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.60      0.32      0.42       782\n     harmful       0.65      0.85      0.74      1142\n\n    accuracy                           0.64      1924\n   macro avg       0.62      0.59      0.58      1924\nweighted avg       0.63      0.64      0.61      1924\n"
+}

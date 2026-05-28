@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/roberta_base_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.6325363825363826,
+  "not_harmful_precision": 0.5736738703339882,
+  "not_harmful_recall": 0.3734015345268542,
+  "not_harmful_f1": 0.45236250968241676,
+  "harmful_precision": 0.6537102473498233,
+  "harmful_recall": 0.8099824868651488,
+  "harmful_f1": 0.7235041063746578,
+  "macro_precision": 0.6136920588419057,
+  "macro_recall": 0.5916920106960015,
+  "macro_f1": 0.5879333080285373,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      292,
+      490
+    ],
+    [
+      217,
+      925
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.57      0.37      0.45       782\n     harmful       0.65      0.81      0.72      1142\n\n    accuracy                           0.63      1924\n   macro avg       0.61      0.59      0.59      1924\nweighted avg       0.62      0.63      0.61      1924\n"
+}

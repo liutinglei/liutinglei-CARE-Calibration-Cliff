@@ -1,0 +1,41 @@
+{
+  "model": "GroNLP/hateBERT strict w4 seed=41",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.894962486602358,
+  "not_harmful_precision": 0.9224422442244224,
+  "not_harmful_recall": 0.9163934426229509,
+  "not_harmful_f1": 0.9194078947368421,
+  "harmful_precision": 0.8440366972477065,
+  "harmful_recall": 0.8544891640866873,
+  "harmful_f1": 0.8492307692307692,
+  "macro_precision": 0.8832394707360645,
+  "macro_recall": 0.8854413033548191,
+  "macro_f1": 0.8843193319838056,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      559,
+      51
+    ],
+    [
+      47,
+      276
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.92      0.92      0.92       610\n     harmful       0.84      0.85      0.85       323\n\n    accuracy                           0.89       933\n   macro avg       0.88      0.89      0.88       933\nweighted avg       0.90      0.89      0.90       933\n",
+  "config": {
+    "model_name": "GroNLP/hateBERT",
+    "window": 4,
+    "seed": 41,
+    "lr": 2e-05,
+    "epochs": 5.0,
+    "batch_size": 32,
+    "max_length": 256,
+    "fp16": true
+  }
+}

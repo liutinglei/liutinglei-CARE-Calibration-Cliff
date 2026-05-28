@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Local environment
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Recompute outputs (so reviewer's local re-runs do not pollute the submitted snapshot)
+outputs/**/ece_recompute/
+outputs/**/preds_temp_recompute/
+outputs/bootstrap_cluster_recompute.json
+outputs/calibration_recompute_table.tex

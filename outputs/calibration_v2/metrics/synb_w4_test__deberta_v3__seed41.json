@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/deberta_v3_w4_seed41",
+  "test_jsonl": "<DATA_ROOT>/data/synbullying_strict_w4_test.jsonl",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.9153269024651661,
+  "not_harmful_precision": 0.9289176090468497,
+  "not_harmful_recall": 0.9426229508196722,
+  "not_harmful_f1": 0.935720097640358,
+  "harmful_precision": 0.8885350318471338,
+  "harmful_recall": 0.8637770897832817,
+  "harmful_f1": 0.8759811616954474,
+  "macro_precision": 0.9087263204469918,
+  "macro_recall": 0.903200020301477,
+  "macro_f1": 0.9058506296679028,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      575,
+      35
+    ],
+    [
+      44,
+      279
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.93      0.94      0.94       610\n     harmful       0.89      0.86      0.88       323\n\n    accuracy                           0.92       933\n   macro avg       0.91      0.90      0.91       933\nweighted avg       0.91      0.92      0.92       933\n"
+}

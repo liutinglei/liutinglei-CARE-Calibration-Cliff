@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/hatebert_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/olid_test.jsonl",
+  "total": 860,
+  "valid_predictions": 860,
+  "invalid_predictions": 0,
+  "accuracy": 0.763953488372093,
+  "not_harmful_precision": 0.7860082304526749,
+  "not_harmful_recall": 0.9241935483870968,
+  "not_harmful_f1": 0.8495181616011861,
+  "harmful_precision": 0.6412213740458015,
+  "harmful_recall": 0.35,
+  "harmful_f1": 0.4528301886792453,
+  "macro_precision": 0.7136148022492381,
+  "macro_recall": 0.6370967741935484,
+  "macro_f1": 0.6511741751402157,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      573,
+      47
+    ],
+    [
+      156,
+      84
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.79      0.92      0.85       620\n     harmful       0.64      0.35      0.45       240\n\n    accuracy                           0.76       860\n   macro avg       0.71      0.64      0.65       860\nweighted avg       0.75      0.76      0.74       860\n"
+}

@@ -1,0 +1,255 @@
+{
+  "sesoi": 0.02,
+  "sesoi_sweep": [
+    0.01,
+    0.02,
+    0.03
+  ],
+  "rows": [
+    {
+      "label": "RoBERTa vs BERT-base",
+      "key": "roberta_vs_bert_base_w4",
+      "diff_macroF1": 0.016920467775619296,
+      "ci95": [
+        -0.005822217966488561,
+        0.05467527332022882
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0058, +0.0547) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa vs HateBERT",
+      "key": "roberta_vs_hatebert_w4",
+      "diff_macroF1": 0.01234491279168852,
+      "ci95": [
+        -0.017521034318784184,
+        0.04433817996791174
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0175, +0.0443) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa vs DeBERTa-v3",
+      "key": "roberta_vs_deberta_v3_w4",
+      "diff_macroF1": 0.005042232104608675,
+      "ci95": [
+        -0.02740846014267714,
+        0.03344961297626275
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0274, +0.0334) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa vs InternLM-7B+LoRA",
+      "key": "roberta_vs_internlm2_5_7b_w4",
+      "diff_macroF1": -0.003369804280540251,
+      "ci95": [
+        -0.027450186378827093,
+        0.028324490560848146
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0275, +0.0283) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa vs Qwen-7B+LoRA",
+      "key": "roberta_vs_qwen2_5_7b_w4",
+      "diff_macroF1": 0.004006119002772991,
+      "ci95": [
+        -0.023149752220214127,
+        0.040708912741971415
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0231, +0.0407) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "InternLM vs Qwen",
+      "key": "internlm_vs_qwen_w4",
+      "diff_macroF1": 0.007393908130517781,
+      "ci95": [
+        -0.012579901046968473,
+        0.04079679970166643
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0126, +0.0408) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa w4 vs w0",
+      "key": "roberta_w4_vs_w0",
+      "diff_macroF1": 0.018824092392310275,
+      "ci95": [
+        -0.00990467497147826,
+        0.0510240521112227
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0099, +0.0510) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa w4 vs w2",
+      "key": "roberta_w4_vs_w2",
+      "diff_macroF1": 0.01025142571863409,
+      "ci95": [
+        -0.019790008848057906,
+        0.03939365763775697
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0198, +0.0394) straddles +/- 0.020; neither difference nor equivalence is established"
+    },
+    {
+      "label": "RoBERTa w8 vs w4",
+      "key": "roberta_w8_vs_w4",
+      "diff_macroF1": 0.004566389140105757,
+      "ci95": [
+        -0.01544749129463274,
+        0.03217209636659625
+      ],
+      "ci_kind": "bca",
+      "sesoi": 0.02,
+      "verdict": "inconclusive",
+      "reason": "95% CI (-0.0154, +0.0322) straddles +/- 0.020; neither difference nor equivalence is established"
+    }
+  ],
+  "sensitivity": [
+    {
+      "label": "RoBERTa vs BERT-base",
+      "key": "roberta_vs_bert_base_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.005822217966488561,
+        0.05467527332022882
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa vs HateBERT",
+      "key": "roberta_vs_hatebert_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.017521034318784184,
+        0.04433817996791174
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa vs DeBERTa-v3",
+      "key": "roberta_vs_deberta_v3_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.02740846014267714,
+        0.03344961297626275
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa vs InternLM-7B+LoRA",
+      "key": "roberta_vs_internlm2_5_7b_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.027450186378827093,
+        0.028324490560848146
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "equivalent"
+      }
+    },
+    {
+      "label": "RoBERTa vs Qwen-7B+LoRA",
+      "key": "roberta_vs_qwen2_5_7b_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.023149752220214127,
+        0.040708912741971415
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "InternLM vs Qwen",
+      "key": "internlm_vs_qwen_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.012579901046968473,
+        0.04079679970166643
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa w4 vs w0",
+      "key": "roberta_w4_vs_w0",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.00990467497147826,
+        0.0510240521112227
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa w4 vs w2",
+      "key": "roberta_w4_vs_w2",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.019790008848057906,
+        0.03939365763775697
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    },
+    {
+      "label": "RoBERTa w8 vs w4",
+      "key": "roberta_w8_vs_w4",
+      "ci_kind": "bca",
+      "ci95": [
+        -0.01544749129463274,
+        0.03217209636659625
+      ],
+      "verdicts_by_sesoi": {
+        "0.010": "inconclusive",
+        "0.020": "inconclusive",
+        "0.030": "inconclusive"
+      }
+    }
+  ]
+}

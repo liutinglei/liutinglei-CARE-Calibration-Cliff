@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Sarcasm FN",
+    "true": "harmful",
+    "pred": "not_harmful",
+    "cb_types": "Insult_General",
+    "source": "gpt-4o",
+    "text": "Bet you love all the extra homework, right VCTM? More time to spend alone with your books."
+  },
+  {
+    "category": "Humour FN",
+    "true": "harmful",
+    "pred": "not_harmful",
+    "cb_types": "Insult_Body_Shame",
+    "source": "gpt-4o",
+    "text": "I mean, come on. VCTM in tights? That's a sight."
+  },
+  {
+    "category": "Hate-speech FN",
+    "true": "harmful",
+    "pred": "not_harmful",
+    "cb_types": "Insult_Discrimination_Sexism",
+    "source": "llama",
+    "text": "Passionate about dance? You mean passionate about wearing makeup and looking like a fag?"
+  },
+  {
+    "category": "Hate-speech FP",
+    "true": "not_harmful",
+    "pred": "harmful",
+    "cb_types": "Insult_Discrimination_Sexism",
+    "source": "llama",
+    "text": "Oh, so now you're saying you're better than us? You're just a pathetic little ballet boy who thinks he's above everyone else."
+  },
+  {
+    "category": "GPT-4o subtle FN",
+    "true": "harmful",
+    "pred": "not_harmful",
+    "cb_types": "Insult_Body_Shame",
+    "source": "gpt-4o",
+    "text": "I mean, come on. VCTM in tights? That's a sight."
+  }
+]

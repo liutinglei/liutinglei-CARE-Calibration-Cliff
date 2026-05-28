@@ -1,0 +1,41 @@
+{
+  "model": "roberta-base strict w8 seed=43",
+  "total": 933,
+  "valid_predictions": 933,
+  "invalid_predictions": 0,
+  "accuracy": 0.9110396570203644,
+  "not_harmful_precision": 0.9341021416803954,
+  "not_harmful_recall": 0.9295081967213115,
+  "not_harmful_f1": 0.9317995069843878,
+  "harmful_precision": 0.8680981595092024,
+  "harmful_recall": 0.8761609907120743,
+  "harmful_f1": 0.8721109399075501,
+  "macro_precision": 0.9011001505947989,
+  "macro_recall": 0.9028345937166928,
+  "macro_f1": 0.9019552234459689,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      567,
+      43
+    ],
+    [
+      40,
+      283
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.93      0.93      0.93       610\n     harmful       0.87      0.88      0.87       323\n\n    accuracy                           0.91       933\n   macro avg       0.90      0.90      0.90       933\nweighted avg       0.91      0.91      0.91       933\n",
+  "config": {
+    "model_name": "roberta-base",
+    "window": 8,
+    "seed": 43,
+    "lr": 2e-05,
+    "epochs": 5.0,
+    "batch_size": 32,
+    "max_length": 256,
+    "fp16": true
+  }
+}

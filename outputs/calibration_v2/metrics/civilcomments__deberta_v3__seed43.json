@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/deberta_v3_w4_seed43",
+  "test_jsonl": "<DATA_ROOT>/data/civilcomments_test.jsonl",
+  "total": 3000,
+  "valid_predictions": 3000,
+  "invalid_predictions": 0,
+  "accuracy": 0.829,
+  "not_harmful_precision": 0.9535353535353536,
+  "not_harmful_recall": 0.8556925308194344,
+  "not_harmful_f1": 0.9019682782342824,
+  "harmful_precision": 0.2419047619047619,
+  "harmful_recall": 0.5247933884297521,
+  "harmful_f1": 0.33116036505867014,
+  "macro_precision": 0.5977200577200578,
+  "macro_recall": 0.6902429596245933,
+  "macro_f1": 0.6165643216464762,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      2360,
+      398
+    ],
+    [
+      115,
+      127
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.95      0.86      0.90      2758\n     harmful       0.24      0.52      0.33       242\n\n    accuracy                           0.83      3000\n   macro avg       0.60      0.69      0.62      3000\nweighted avg       0.90      0.83      0.86      3000\n"
+}

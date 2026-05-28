@@ -1,0 +1,14 @@
+\begin{tabular}{llcccc}
+\toprule
+& & \multicolumn{2}{c}{RoBERTa-base (3-seed mean, s.d.)} & \multicolumn{2}{c}{InternLM2.5-7B+LoRA (seed 42)} \\
+\cmidrule(lr){3-4} \cmidrule(lr){5-6}
+Split & Anonymisation & Macro-F1 & Harm-F1 & Macro-F1 & Harm-F1 \\
+\midrule
+Strict (conv-level) & Raw role tokens & 0.907 (0.006) & 0.876 (0.007) & 0.915 & 0.889 \\
+Strict (conv-level) & Speaker prefix only & 0.909 (0.003) & 0.879 (0.005) & 0.917 & 0.891 \\
+Strict (conv-level) & Full in-text anon & 0.900 (0.002) & 0.866 (0.003) & 0.908 & 0.880 \\
+Naive (utt-level) & Raw role tokens & 0.915 (0.004) & 0.876 (0.006) & 0.909 & 0.867 \\
+Naive (utt-level) & Speaker prefix only & 0.913 (0.007) & 0.872 (0.011) & 0.925 & 0.891 \\
+Naive (utt-level) & Full in-text anon & 0.920 (0.002) & 0.884 (0.003) & 0.924 & 0.888 \\
+\bottomrule
+\end{tabular}

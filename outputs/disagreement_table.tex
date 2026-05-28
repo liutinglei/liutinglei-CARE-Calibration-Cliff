@@ -1,0 +1,15 @@
+\begin{tabular}{lc}
+\toprule
+Setting & Accuracy (3-seed mean, s.d.) \\
+\midrule
+Individual: BERT-base & 0.912 (0.006) \\
+Individual: HateBERT & 0.903 (0.002) \\
+Individual: RoBERTa-base & 0.902 (0.016) \\
+Individual: DeBERTa-v3 & 0.915 (0.002) \\
+Individual: InternLM-7B+LoRA & 0.923 (0.002) \\
+Individual: Qwen-7B+LoRA & 0.918 (0.004) \\
+\midrule
+Majority vote of 6 systems & \textbf{0.923} (0.004) \\
+Oracle (any-of-6 correct) & 0.984 (0.003) \\
+\bottomrule
+\end{tabular}

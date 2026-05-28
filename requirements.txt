@@ -1,0 +1,21 @@
+# Minimal dependencies to re-run the post-hoc scripts (compute_ece / bootstrap /
+# temperature scaling). A frozen `environment.yml` with the full training stack
+# will accompany the permanent release on acceptance.
+
+numpy==1.26.4
+scipy==1.13.1
+pandas==2.2.2
+scikit-learn==1.5.2
+statsmodels==0.14.2
+matplotlib==3.10.8
+
+# Training-time dependencies (NOT required to reproduce the post-hoc numbers
+# from the predictions already in outputs/calibration_v2/, but listed for
+# completeness):
+
+# torch==2.3.0
+# transformers==4.43.3
+# peft==0.11.1
+# datasets==2.20.0
+# accelerate==0.31.0
+# bitsandbytes==0.43.1

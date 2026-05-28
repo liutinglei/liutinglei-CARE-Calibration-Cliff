@@ -1,0 +1,32 @@
+﻿{
+  "model": "<CKPT_ROOT>/baselines/hatebert_w4_seed42",
+  "test_jsonl": "<DATA_ROOT>/data/synbullying_strict_w4_dev.jsonl",
+  "total": 1608,
+  "valid_predictions": 1608,
+  "invalid_predictions": 0,
+  "accuracy": 0.904228855721393,
+  "not_harmful_precision": 0.9451219512195121,
+  "not_harmful_recall": 0.9379727685325264,
+  "not_harmful_f1": 0.9415337889141989,
+  "harmful_precision": 0.722972972972973,
+  "harmful_recall": 0.7482517482517482,
+  "harmful_f1": 0.7353951890034365,
+  "macro_precision": 0.8340474620962426,
+  "macro_recall": 0.8431122583921373,
+  "macro_f1": 0.8384644889588178,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      1240,
+      82
+    ],
+    [
+      72,
+      214
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.95      0.94      0.94      1322\n     harmful       0.72      0.75      0.74       286\n\n    accuracy                           0.90      1608\n   macro avg       0.83      0.84      0.84      1608\nweighted avg       0.91      0.90      0.90      1608\n"
+}

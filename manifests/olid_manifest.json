@@ -1,0 +1,14 @@
+﻿{
+  "olid_test": {
+    "file": "<DATA_ROOT>/data/olid_test.jsonl",
+    "n": 860,
+    "not_harmful": 620,
+    "harmful": 240
+  },
+  "olid_train": {
+    "file": "<DATA_ROOT>/data/olid_train.jsonl",
+    "n": 11916,
+    "not_harmful": 7975,
+    "harmful": 3941
+  }
+}

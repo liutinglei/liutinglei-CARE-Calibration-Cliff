@@ -1,0 +1,42 @@
+﻿{
+  "mode": "verbalizer_scoring",
+  "base_model": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+  "adapter": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed41",
+  "test_jsonl": "<DATA_ROOT>/data/hatexplain_test.jsonl",
+  "total": 1924,
+  "valid_predictions": 1924,
+  "invalid_predictions": 0,
+  "accuracy": 0.7416839916839917,
+  "not_harmful_precision": 0.7614678899082569,
+  "not_harmful_recall": 0.530690537084399,
+  "not_harmful_f1": 0.6254709871891485,
+  "harmful_precision": 0.7338651196519217,
+  "harmful_recall": 0.8861646234676007,
+  "harmful_f1": 0.8028560095200318,
+  "macro_precision": 0.7476665047800892,
+  "macro_recall": 0.7084275802759998,
+  "macro_f1": 0.7141634983545901,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      415,
+      367
+    ],
+    [
+      130,
+      1012
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.76      0.53      0.63       782\n     harmful       0.73      0.89      0.80      1142\n\n    accuracy                           0.74      1924\n   macro avg       0.75      0.71      0.71      1924\nweighted avg       0.75      0.74      0.73      1924\n",
+  "verbalizer_harm_ids": [
+    280,
+    28129
+  ],
+  "verbalizer_not_ids": [
+    668,
+    2073
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "n": 1924,
+  "ece": 0.0671,
+  "mce": 0.1118,
+  "brier": 0.1779,
+  "n_bins": 15,
+  "bins": [
+    {
+      "lo": 0.4667,
+      "hi": 0.5333,
+      "n": 83,
+      "mean_conf": 0.5169,
+      "mean_acc": 0.4458,
+      "gap": 0.0711
+    },
+    {
+      "lo": 0.5333,
+      "hi": 0.6,
+      "n": 193,
+      "mean_conf": 0.5658,
+      "mean_acc": 0.6166,
+      "gap": 0.0508
+    },
+    {
+      "lo": 0.6,
+      "hi": 0.6667,
+      "n": 180,
+      "mean_conf": 0.634,
+      "mean_acc": 0.6,
+      "gap": 0.034
+    },
+    {
+      "lo": 0.6667,
+      "hi": 0.7333,
+      "n": 203,
+      "mean_conf": 0.7003,
+      "mean_acc": 0.6453,
+      "gap": 0.055
+    },
+    {
+      "lo": 0.7333,
+      "hi": 0.8,
+      "n": 205,
+      "mean_conf": 0.765,
+      "mean_acc": 0.6537,
+      "gap": 0.1113
+    },
+    {
+      "lo": 0.8,
+      "hi": 0.8667,
+      "n": 226,
+      "mean_conf": 0.833,
+      "mean_acc": 0.7212,
+      "gap": 0.1118
+    },
+    {
+      "lo": 0.8667,
+      "hi": 0.9333,
+      "n": 337,
+      "mean_conf": 0.9035,
+      "mean_acc": 0.8309,
+      "gap": 0.0726
+    },
+    {
+      "lo": 0.9333,
+      "hi": 1.0,
+      "n": 497,
+      "mean_conf": 0.9629,
+      "mean_acc": 0.9155,
+      "gap": 0.0474
+    }
+  ],
+  "source_csv": "D:\\5.13 Awesome\u8bba\u6587skill\\CYBERBULLYING\u6570\u636e\u96c6\u6587\u7ae0\\PAPER2_CODEX\\paper\\outputs\\calibration_v2\\preds\\hatexplain__internlm2_5_7b__seed41.csv"
+}

@@ -1,0 +1,42 @@
+﻿{
+  "mode": "verbalizer_scoring",
+  "base_model": "<WORK_ROOT>/models/internlm2_5-7b-chat",
+  "adapter": "<CKPT_ROOT>/llm/internlm2_5_7b_w4_seed42",
+  "test_jsonl": "<DATA_ROOT>/data/civilcomments_test.jsonl",
+  "total": 3000,
+  "valid_predictions": 3000,
+  "invalid_predictions": 0,
+  "accuracy": 0.851,
+  "not_harmful_precision": 0.9572615749901069,
+  "not_harmful_recall": 0.8770848440899203,
+  "not_harmful_f1": 0.9154210028382214,
+  "harmful_precision": 0.2832980972515856,
+  "harmful_recall": 0.5537190082644629,
+  "harmful_f1": 0.3748251748251748,
+  "macro_precision": 0.6202798361208463,
+  "macro_recall": 0.7154019261771916,
+  "macro_f1": 0.6451230888316981,
+  "confusion_matrix_labels": [
+    "not_harmful",
+    "harmful"
+  ],
+  "confusion_matrix": [
+    [
+      2419,
+      339
+    ],
+    [
+      108,
+      134
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n not_harmful       0.96      0.88      0.92      2758\n     harmful       0.28      0.55      0.37       242\n\n    accuracy                           0.85      3000\n   macro avg       0.62      0.72      0.65      3000\nweighted avg       0.90      0.85      0.87      3000\n",
+  "verbalizer_harm_ids": [
+    280,
+    28129
+  ],
+  "verbalizer_not_ids": [
+    668,
+    2073
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "system_A": "roberta_base_w4",
+  "system_A_files": [
+    "roberta_base_w4_seed41_predictions",
+    "roberta_base_w4_seed42_predictions",
+    "roberta_base_w4_seed43_predictions"
+  ],
+  "system_B": "qwen2_5_7b_w4",
+  "system_B_files": [
+    "qwen2_5_7b_w4_seed41_predictions",
+    "qwen2_5_7b_w4_seed42_predictions",
+    "qwen2_5_7b_w4_seed43_predictions"
+  ],
+  "B": 10000,
+  "seed": 42,
+  "resampling_unit": "conversation",
+  "n_clusters": 13,
+  "n_rows": 933,
+  "effective_sample_size_clusters": 13,
+  "jackknife_replications": 13,
+  "A_mean_macroF1": 0.9047627198399552,
+  "A_ci95_macroF1": [
+    0.8609154009079998,
+    0.9373005232861579
+  ],
+  "B_mean_macroF1": 0.9007566008371821,
+  "B_ci95_macroF1": [
+    0.8603977472511996,
+    0.9391747157423275
+  ],
+  "diff_macroF1_overall": 0.005087783792870559,
+  "diff_macroF1_mean": 0.004006119002772991,
+  "diff_macroF1_ci95": [
+    -0.028946744679215396,
+    0.03435233875945717
+  ],
+  "diff_macroF1_bca_ci95": [
+    -0.023149752220214127,
+    0.040708912741971415
+  ],
+  "p_value_macroF1_two_sided": 0.7898,
+  "diff_harmF1_overall": 0.007153697500231537,
+  "diff_harmF1_mean": 0.004749385449377885,
+  "diff_harmF1_ci95": [
+    -0.04333465712155482,
+    0.04459710483163205
+  ],
+  "diff_harmF1_bca_ci95": [
+    -0.032430638200847246,
+    0.05355396529687473
+  ],
+  "p_value_harmF1_two_sided": 0.7788
+}
