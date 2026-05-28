@@ -1,8 +1,14 @@
 # CARE: A Calibration-Aware Framework for Cyberbullying Detection Under Distribution Shift
 
-**Anonymous repository for double-blind peer review.**
-This repository accompanies the manuscript submitted to IEEE Access.
-No author identity, affiliation, or contact information is included.
+Reproducibility kit accompanying the manuscript submitted to **IEEE Access** (2026).
+
+> **📖 Citation Notice.** If you use any code, manifest, or calibration
+> artefact in this repository — including the per-system prediction CSVs
+> and the SHA-256-pinned summary artefact — please cite the accompanying
+> paper. GitHub auto-renders a *"Cite this repository"* button in the
+> sidebar from `CITATION.cff`; bibliographic details for the published
+> version will be added there on acceptance. The full author list and
+> affiliations are in `CITATION.cff`.
 
 ---
 

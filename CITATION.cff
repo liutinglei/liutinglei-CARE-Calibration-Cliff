@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+title: >-
+  CARE: A Calibration-Aware Framework for Cyberbullying Detection
+  Under Distribution Shift (reproducibility kit)
+message: >-
+  If you use this code, the strict split manifest, the calibration
+  artefacts, or any of the per-system prediction data in this
+  repository, please cite the accompanying paper as below.
+type: software
+authors:
+  - given-names: Zhengmeng
+    family-names: Wang
+    affiliation: >-
+      School of Communication, Universiti Sains Malaysia (USM),
+      Pulau Pinang, Malaysia
+  - given-names: See Kee
+    family-names: Ng
+    affiliation: >-
+      School of Communication, Universiti Sains Malaysia (USM),
+      Pulau Pinang, Malaysia
+  - given-names: Tinglei
+    family-names: Liu
+    affiliation: >-
+      School of Literature and Communication, Hebei Normal University
+      for Nationalities, Chengde, China; and Universiti Putra
+      Malaysia, Selangor, Malaysia
+  - given-names: Suriati Binti
+    family-names: Saad
+    affiliation: >-
+      School of Communication, Universiti Sains Malaysia (USM),
+      Pulau Pinang, Malaysia
+    email: suriatisaad@usm.my
+repository-code: "https://github.com/liutinglei/liutinglei-CARE-Calibration-Cliff"
+license: MIT
+preferred-citation:
+  type: article
+  title: >-
+    CARE: A Calibration-Aware Framework for Cyberbullying Detection
+    Under Distribution Shift
+  authors:
+    - given-names: Zhengmeng
+      family-names: Wang
+    - given-names: See Kee
+      family-names: Ng
+    - given-names: Tinglei
+      family-names: Liu
+    - given-names: Suriati Binti
+      family-names: Saad
+  journal: "IEEE Access"
+  year: 2026
+  notes: >-
+    Manuscript submitted to IEEE Access. Bibliographic details
+    (volume, pages, DOI) will be added on acceptance.
